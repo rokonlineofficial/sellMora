@@ -1511,12 +1511,12 @@ body.lock {
 }
 @media (min-width: 700px) {
   .steps {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 @media (min-width: 1024px) {
   .steps {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 1.25rem;
   }
 }
@@ -2266,7 +2266,9 @@ section[id] {
   box-shadow: 0 -1px 0 var(--line);
 }
 
-
+.moneybacktext {
+  margin-top: 20px;
+}
 
 
 
