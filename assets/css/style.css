@@ -507,7 +507,6 @@ html.js .fade.in {
   padding: clamp(2rem, 5vw, 4rem);
   display: grid;
   gap: 2rem;
-  align-items: center;
 }
 @media (min-width: 900px) {
   .feature {
@@ -546,6 +545,7 @@ html.js .fade.in {
   display: grid;
   gap: 1rem;
   margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
 }
 @media (min-width: 768px) {
   .tgrid {
@@ -2271,4 +2271,42 @@ section[id] {
 }
 
 
-
+/* Testimonials button — outlined, fills on hover, centered */
+.testiview {
+  display: flex;
+  width: fit-content;
+  margin-inline: auto;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  white-space: nowrap;
+  cursor: pointer;
+  background: transparent;
+  border: 2px solid var(--brand);
+  color: var(--brand);
+  font-weight: 500;
+  padding: 0.75rem 2rem;
+  font-size: 0.75rem;
+  transition:
+    background 0.2s,
+    color 0.2s,
+    border-color 0.2s;
+}
+.testiview:hover {
+  background: var(--brand);
+  color: #fff;
+}
+@media (min-width: 640px) {
+  .testiview {
+    padding: 0.875rem 2.5rem;
+    font-size: 0.875rem;
+  }
+}
+@media (min-width: 768px) {
+  .testiview {
+    padding: 1rem 3rem;
+    font-size: 1rem;
+  }
+}
