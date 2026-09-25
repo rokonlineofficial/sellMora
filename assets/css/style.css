@@ -2310,3 +2310,10 @@ section[id] {
     font-size: 1rem;
   }
 }
+
+
+.blogImg {
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+}
