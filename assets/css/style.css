@@ -2353,3 +2353,16 @@ section[id] {
 .article ol li {
   box-sizing: border-box;
 }
+
+
+/* ===== Mobile width fix ===== */
+html,body{max-width:100%;overflow-x:hidden}
+@supports (overflow:clip){html,body{overflow-x:clip}}
+
+.container,.fgrid,.cblock,.contact-grid,.founder,.reports,.book,.scard,.phero-grid,.cbig,.row2,.feature{min-width:0}
+.fgrid>*,.cblock>*,.contact-grid>*,.founder>*,.cbig>*,.reports>*,.book>*,.scard>*,.phero-grid>*,.feature>*,.row2>*{min-width:0}
+
+.fgrid a,.fgrid li,.crow a,.crow span,.cblock .meta a{overflow-wrap:anywhere}
+
+img,svg,video,input,textarea,select{max-width:100%}
+
