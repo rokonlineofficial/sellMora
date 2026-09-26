@@ -256,6 +256,11 @@
     "blog/top-of-amazon-search": "p9",
     "blog/amazon-cpm-ads": "p10",
     "blog/account-management-fba": "p11",
+    "blog/best-practices-for-amazon-account": "p14",
+    "blog/how-to-boost-your-sales": "p15",
+    "blog/hire-amazon-account-management-agency": "p16",
+    "blog/the-ultimate-checklist": "p17",
+    "blog/how-to-sell-internationally": "p18",
     about: "p12",
     contact: "p13",
   };
